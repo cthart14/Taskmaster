@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+
+# Node (React Native / Expo)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Expo
+.expo/
+.expo-shared/
+
+# TypeScript
+*.tsbuildinfo
+
+# React Native
+ios/build/
+android/app/build/
+*.keystore
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.db
+
+# VSCode
+.vscode/
+
+# Build Results
+build/
+dist/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
