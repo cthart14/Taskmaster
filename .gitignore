@@ -1,6 +1,16 @@
 # macOS
 .DS_Store
 
+# Ignore build files and directories
+bin/
+obj/
+
+# SQLite database file
+*.db
+
+# Optional: Ignore EF migrations (depending on team policy)
+Migrations/
+
 # Node (React Native / Expo)
 node_modules/
 npm-debug.log*
